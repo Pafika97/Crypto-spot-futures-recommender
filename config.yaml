@@ -1,0 +1,10 @@
+# Общие настройки
+base_quote: USDT
+default_capital: 10000
+max_weight: 0.35
+vol_lookback: 30
+trend_lookback: 7
+funding_pos_thr: 0.20   # годовых,для L spot / S perp
+funding_neg_thr: -0.20  # годовых,для S spot / L perp
+basis_thr: 0.10         # годовая база квартальных
+save_dir: runs
